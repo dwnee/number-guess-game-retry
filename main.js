@@ -54,6 +54,7 @@ function reset(){
   userInput.value=""
   chances = 3
   gameOverMsg.textContent=""
+  playButton.disabled = false;
   pickRandomNum()
   resultArea.textContent="결과값이 여기나옵니다"
   chanceArea.textContent=`남은기회:${chances}`
